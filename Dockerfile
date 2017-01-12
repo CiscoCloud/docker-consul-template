@@ -2,7 +2,7 @@ FROM gliderlabs/alpine:3.1
 
 MAINTAINER Chris Aubuchon <Chris.Aubuchon@gmail.com>
 
-ENV CONSUL_TEMPLATE_VERSION 0.12.2
+ENV CONSUL_TEMPLATE_VERSION 0.18.0-rc1
 
 ADD https://releases.hashicorp.com/consul-template/${CONSUL_TEMPLATE_VERSION}/consul-template_${CONSUL_TEMPLATE_VERSION}_linux_amd64.zip /
 
